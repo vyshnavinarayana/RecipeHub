@@ -1,16 +1,85 @@
-# React + Vite
+# 🍽️ RecipeHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive recipe discovery web application built with **React** and **Vite**. RecipeHub allows users to explore delicious recipes with a clean UI, smooth animations, recipe videos, and an enjoyable browsing experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔍 Search recipes instantly
+- 🍗 Browse recipes by category
+- 🎥 Watch recipe videos (when available)
+- 👨‍🍳 Meet our expert chefs section
+- ⭐ Testimonials section
+- 📱 Fully responsive design
+- 🎨 Modern premium UI
+- ⚡ Fast performance with React + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+├── pages/
+├── utils/
+├── assets/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/vyshnavinarayana/RecipeHub.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌟 Future Improvements
+
+- User Authentication
+- Favorites Feature
+- Backend Integration
+- MongoDB Database
+- Meal Planner
+- User Profiles
+
+---
+
+## 👩‍💻 Developer
+
+**Vyshnavi Vallem**
+
+B.Tech CSE Student | React Developer | Learning Full Stack Development
+
+---
+
+⭐ If you like this project, consider giving it a star.
