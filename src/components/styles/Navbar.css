@@ -1,0 +1,115 @@
+/* ---------- NAVBAR ---------- */
+
+.navbar{
+    position: fixed;
+    top:20px;
+    left:50%;
+    transform:translateX(-50%);
+
+    width:95%;
+    max-width:1450px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 30px;
+
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:18px;
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,.18);
+
+    z-index:999;
+    transition:.4s;
+}
+
+/* Logo */
+
+.logo{
+    color:white;
+    font-size:34px;
+    font-weight:bold;
+    cursor:pointer;
+    user-select:none;
+}
+
+/* Search */
+
+.search-container{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.search-input{
+    width:320px;
+    padding:12px 18px;
+
+    border:none;
+    border-radius:30px;
+
+    outline:none;
+
+    background:rgba(255,255,255,.75);
+}
+
+.search-btn{
+    padding:12px 25px;
+
+    border:none;
+    border-radius:30px;
+
+    background:#ff9800;
+    color:white;
+
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* Theme Button */
+
+.theme-btn{
+    border:none;
+    padding:12px 18px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    background:white;
+    color:#ff6600;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.theme-btn:hover{
+    transform:scale(1.05);
+}
+
+/* Mobile */
+
+@media(max-width:900px){
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.search-input{
+    width:220px;
+}
+
+.logo{
+    font-size:28px;
+}
+
+}
