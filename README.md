@@ -46,7 +46,7 @@ src/
 Clone the repository
 
 ```bash
-git clone https://github.com/vyshnavinarayana/RecipeHub.git
+git clone https://github.com/vyshnavivallem/RecipeHub.git
 ```
 
 Install dependencies
